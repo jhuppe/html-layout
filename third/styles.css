@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  background: #d8d8d8;
+  /*box-sizing: border-box;*/
+  flex: 1;
+  padding: 5px 20px;
+}
+
+.hamburger {
+  background: #4a90e2;
+  height: 50px;
+  width: 50px;
+}
+
+.text {
+  background: #fff;
+  flex:2;
+  padding: 20px;
+  margin: 50px;
+
+}
+
+.blue {
+  flex:1;
+  background: #4a90e2;
+
+}
+
+.green {
+  flex: 1;
+  background: #50e3c2;
+
+}
+
+.light-green {
+  flex: 1;
+  background: #b8e986;
+
+}
+
+.yellow {
+  flex: 1;
+  background: #f8e71c;
+
+}
