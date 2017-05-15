@@ -1,0 +1,39 @@
+.parent {
+  display: flex;
+  background: yellow;
+  height: 100vh;
+
+}
+
+.left {
+  background: #4a90e2;
+  width: 33%;
+}
+
+.middle {
+  background: #50e3c2;
+  width: 33%;
+}
+
+.right {
+  background: #b8e9a6;
+  width: 33%;
+  position: relative;
+}
+
+#image {
+background: #d0021b;
+width: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 120px;
+color: #ffffff;
+font-size: 20px;
+text-align: center;
+display: block;
+margin: auto;
+line-height: 100px;
+
+}
