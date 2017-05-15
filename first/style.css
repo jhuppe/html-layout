@@ -1,0 +1,31 @@
+.parent {
+  display: flex;
+  background: #d8d8d8;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+.content {
+  background: #efefef;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #222222;
+  height: 70px;
+
+}
+
+header {
+height: 100px;
+background: #444444;
+
+}
